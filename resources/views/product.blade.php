@@ -7,11 +7,11 @@
 
 <body>
     <h1>Product Suggestions</h1>
-    {{-- <ul>
-        @foreach ($suggestions as $suggestion)
-        <li>{{ $suggestion->name }}</li>
+    <ul>
+        @foreach ($products as $product)
+        <li>{{ $product->name }}</li>
         @endforeach
-    </ul> --}}
+    </ul>
 </body>
 
 </html>

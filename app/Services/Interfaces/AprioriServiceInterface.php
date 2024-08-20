@@ -5,6 +5,7 @@ namespace App\Services\Interfaces;
 
 interface AprioriServiceInterface
 {
-    public function getTransactions();
-    public function runApriori();
+    public function getTransactions(): array;
+    public function runApriori(): void;
+    public function getRecommendations(array $products): array;
 }
